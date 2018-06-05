@@ -1,0 +1,3 @@
+export const ADD_ITEMS = 'ADD_ITEMS';
+export const DELETE_ITEM = 'DELETE_ITEM';
+export const CHANGE_ITEM_QUANTITY = 'CHANGE_ITEM_QUANTITY';

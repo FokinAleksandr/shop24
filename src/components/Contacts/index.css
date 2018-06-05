@@ -1,0 +1,63 @@
+.contacts {
+  background-color: #E4E4E4;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts__list {
+  width: 80%;
+  margin: auto;
+  line-height: 40px;
+}
+
+.contacts__list a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.contacts__list__phone {
+  font-size: 1em;
+}
+
+.contacts__list__phone-text {
+  font-size: 0.7em;
+}
+
+.contacts__list__start-blog {
+  font-size: 0.8em;
+  margin-left: 200px;
+}
+
+.contacts__list__youtube-1 {
+  font-size: 0.8em;
+  margin-left: 40px;
+}
+
+.contacts__list__youtube-2 {
+  font-size: 0.8em;
+  margin-left: 40px;
+}
+
+
+.contacts__list__star-icon {
+  background: url('./star.png') no-repeat;
+  float: left;
+  height: 39px;
+  width: 39px;
+}
+
+.contacts__list__youtube-1-icon {
+  background: url('./youtube-1.png') no-repeat;
+  float: left;
+  height: 40px;
+  width: 62px;
+}
+
+.contacts__list__youtube-2-icon {
+  background: url('./youtube-2.png') no-repeat;
+  float: left;
+  height: 40px;
+  width: 40px;
+}

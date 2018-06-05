@@ -1,0 +1,12 @@
+.searchInput {
+  background: url('./search.png') no-repeat right;
+  padding: 4px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.searchInput:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+}

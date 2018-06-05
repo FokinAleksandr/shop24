@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "react",
+    ["env", {
+      "targets": {
+        "node": "current",
+        "browsers": ["last 2 versions", "safari >= 7"]
+      }
+    }]
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "react-hot-loader/babel",
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
+  ]
+}

@@ -1,0 +1,24 @@
+.add {
+  width: 80%;
+  margin: 60px auto;
+  overflow: hidden;
+}
+
+.add__header {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #ECECEC;
+  line-height: 0.1em;
+  margin: 20px 0 40px;
+}
+
+.add__header span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.add__column {
+  float: left;
+  width: 25%;
+  text-align: center;
+}

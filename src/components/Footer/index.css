@@ -1,0 +1,45 @@
+.footer-background {
+  background-color: #2A2A2A;
+}
+
+.social-links {
+  width: 45%;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.social-links__unit {
+  float: left;
+  color: white;
+  margin: 0;
+  padding: 34px 10px;
+}
+
+.footer-nav {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  border-top: white;
+}
+
+.footer-nav__column {
+  float: left;
+  width: 16%;
+  color: white;
+}
+
+.footer-nav__column a {
+  font-size: 0.8em;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 3px 0;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.7em;
+  width: 45%;
+  margin: 30px auto 0;
+  text-align: center;
+}
