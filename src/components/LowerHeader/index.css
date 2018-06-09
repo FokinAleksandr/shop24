@@ -1,0 +1,28 @@
+.header-2 {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-2__left {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-2__right {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+}
+
+.logo-icon {
+  background: url('./logo.png') no-repeat;
+  height: 86px;
+  width: 220px;
+}

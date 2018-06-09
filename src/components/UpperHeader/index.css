@@ -1,0 +1,19 @@
+.header-1 {
+  background-color: #E4E4E4;
+  margin: 0;
+  padding: 0;
+}
+
+.header-1-links {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-1-links__right {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}

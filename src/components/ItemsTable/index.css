@@ -1,0 +1,94 @@
+.items {
+  width: 70%;
+  margin: auto;
+}
+
+.items-header {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #ECECEC;
+  line-height: 0.1em;
+  margin: 50px 0 40px;
+}
+
+.items-header__text {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.items-table {
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 25px;
+}
+
+.items-table__cell {
+  padding: 5px 5px 15px 5px;
+}
+
+.items-table__cell-header {
+  height: 80px;
+}
+.items-table__cell-body {
+  vertical-align: top;
+}
+
+.items-table__left-align {
+  text-align: left;
+}
+
+.items-table__center-align {
+  text-align: center;
+}
+
+.items-table__right-align {
+  text-align: right;
+}
+
+.items-table__delete-icon {
+  background: url('./del.png') no-repeat;
+  cursor: pointer;
+  border: none;
+  width: 24px;
+  height: 26px;
+  margin-left: 85%;
+}
+
+.items-table__minus-icon {
+  background: url('./minus.png') no-repeat;
+  cursor: pointer;
+  border: none;
+  width: 15px;
+  height: 13px;
+  margin-right: 10px;
+}
+
+.items-table__plus-icon {
+  background: url('./plus.png') no-repeat;
+  cursor: pointer;
+  border: none;
+  width: 14px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.items-table__plus-icon:focus,
+.items-table__minus-icon:focus,
+.items-table__delete-icon:focus {
+  outline: none;
+}
+.items-table__name {
+  margin-top: 0;
+}
+
+.items-table__code {
+  color: #808080
+}
+
+.items-table__size {
+  margin-bottom: 0;
+}
+
+.items-table__color {
+  margin-top: 0;
+}

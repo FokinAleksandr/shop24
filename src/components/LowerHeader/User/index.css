@@ -1,0 +1,13 @@
+.profile-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+.profile-user__icon {
+  background: url('user.png') no-repeat;
+  height: 33px;
+  width: 33px;
+}

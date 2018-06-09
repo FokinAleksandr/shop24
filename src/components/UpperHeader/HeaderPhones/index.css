@@ -1,0 +1,14 @@
+.header-phones {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.header-phones__number {
+  margin: 0;
+}
+
+.header-phones__text {
+  margin: 0 0 0 5px;
+  font-size: 0.8em;
+}

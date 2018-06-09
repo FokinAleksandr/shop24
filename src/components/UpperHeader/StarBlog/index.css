@@ -1,0 +1,16 @@
+.star-blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+.star-blog__text {
+}
+
+.star-blog__icon {
+  background: url('star.png') no-repeat;
+  height: 40px;
+  width: 40px;
+}

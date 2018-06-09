@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import propTypes from 'prop-types';
-import { Items, OrderConfirmation, AddToOrder } from '../components';
+import { ItemsTable, OrderConfirmation, AddToOrder } from '../components';
 import { addItems, deleteItem, changeItemQuantity } from '../actions';
 
 class Box extends React.PureComponent {
@@ -14,7 +14,7 @@ class Box extends React.PureComponent {
     const { items, deleteItem, changeItemQuantity, sum } = this.props;
     return (
       <React.Fragment>
-        <Items
+        <ItemsTable
           items={items}
           deleteItem={deleteItem}
           changeItemQuantity={changeItemQuantity}

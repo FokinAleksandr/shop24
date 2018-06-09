@@ -1,0 +1,17 @@
+.youtube {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+.youtube__text {
+
+}
+
+.youtube__icon {
+  background: url('youtube-1.png') no-repeat;
+  height: 40px;
+  width: 62px;
+}

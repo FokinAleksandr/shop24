@@ -10,14 +10,15 @@ const Footer = () => {
         <p className="social-links__unit">SHOP24 в социальных сетях:</p>
         <img src={social} alt="img" />
       </div>
+
       <div className="footer-nav">
         <div className="footer-nav__column">
           <img src={logo} alt="img" />
         </div>
-        <div className="footer-nav__column">
-          <h3>8 (800) 500-75-55*</h3>
-          <h6>Бесплатный звонок по всей России</h6>
-          <h3>8 (800) 500-75-55*</h3>
+        <div className="footer-nav__column footer-nav__phone-column">
+          <p className="footer-nav__phone-number">8 (800) 500-75-55*</p>
+          <p>*Бесплатный звонок по всей России</p>
+          <p className="footer-nav__phone-number">8 (495) 733-96-03*</p>
         </div>
         <div className="footer-nav__column">
           <b>Каталог товаров</b>
@@ -55,13 +56,15 @@ const Footer = () => {
           <a>Контакты</a>
         </div>
       </div>
+
       <div className="copyright">
         <span>
           Copyright © Владелец сайта ООО «Коннект», 2014-2018. Все права
-          защищены.<br /> Продавцы товаров указаны в разделе контакты. При
-          использовании материалов сайта ссылка на www.shop24.com обязательна.<br />
-          115088, г. Москва, ул. Шарикоподшипниковская д.13 стр.62 Телефон +8
-          800 500-75-55
+          защищены.<br />
+          При использовании материалов сайта ссылка на www.shop24.com
+          обязательна.<br />
+          115088, г. Москва, ул. Шарикоподшипниковская д.13 стр.62<br />Телефон
+          +8 800 500-75-55
         </span>
       </div>
     </div>

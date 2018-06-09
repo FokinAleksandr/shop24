@@ -1,0 +1,13 @@
+.profile-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+.profile-box__box-icon {
+  background: url('box.png') no-repeat;
+  height: 34px;
+  width: 34px;
+}

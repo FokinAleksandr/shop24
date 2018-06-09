@@ -1,13 +1,13 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import propTypes from 'prop-types';
-import { Contacts, PersonalInfo, Links } from '../components';
+import { UpperHeader, LowerHeader, Links } from '../components';
 
 const Header = ({ quantity }) => {
   return (
     <React.Fragment>
-      <Contacts />
-      <PersonalInfo quantity={quantity} />
+      <UpperHeader />
+      <LowerHeader quantity={quantity} />
       <Links />
     </React.Fragment>
   );

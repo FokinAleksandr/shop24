@@ -1,22 +1,22 @@
 .promo {
-  width: 80%;
+  width: 70%;
   margin: auto;
   overflow: hidden;
   border-top: 2px solid #ECECEC;
 }
 
-.promo__text {
+.promo-form {
   float: left;
 }
 
-.promo__text__input {
+.promo-form__input {
   height: 40px;
   width: 250px;
   text-indent: 10px;
   margin-right: 10px;
 }
 
-.promo__text__button {
+.promo-form__button {
   height: 40px;
   width: 200px;
   color: white;
@@ -27,7 +27,7 @@
   cursor: pointer;
 }
 
-.promo__sum__button {
+.order-submit__button {
   float: right;
   height: 40px;
   width: 200px;
@@ -39,26 +39,26 @@
   cursor: pointer;
 }
 
-.promo__sum {
+.order-submit {
   float: right;
 }
 
-.promo__sum__text {
+.order-submit__text {
   float: right;
   margin-left: 200px;
 }
 
-.promo__sum__before-discount p {
+.order-submit__before-discount p {
   display: inline-block;
   margin-bottom: 10px;
 }
 
-.promo__sum__discount p {
+.order-submit__discount p {
   color: #FE7A25;
   display: inline-block;
   margin: 0 0 20px;
 }
 
-.promo__sum__after-discount p {
+.order-submit__after-discount p {
   display: inline-block;
 }

@@ -4,40 +4,40 @@ import './index.css';
 const Links = () => {
   return (
     <React.Fragment>
-      <div className="links-1">
-        <ul className="links-list-1">
+      <div className="links-1-background">
+        <ul className="links-1">
           <li>
-            <a className="links-list-1__active" href="#1">
+            <a className="links-1__active" href="/">
               Одежда и аксессуары
             </a>
           </li>
           <li>
-            <a href="#2">Обувь</a>
+            <a href="/">Обувь</a>
           </li>
           <li>
-            <a href="#3">Украшения</a>
+            <a href="/">Украшения</a>
           </li>
           <li>
-            <a href="#4">Красота и здоровье</a>
+            <a href="/">Красота и здоровье</a>
           </li>
           <li>
-            <a href="#5">Товары для дома</a>
+            <a href="/">Товары для дома</a>
           </li>
           <li>
-            <a href="#6">Товары для кухни</a>
+            <a href="/">Товары для кухни</a>
           </li>
         </ul>
       </div>
-      <div className="links-2">
-        <ul className="links-list-2">
+      <div className="links-2-background">
+        <ul className="links-2">
           <li>
-            <a href="#7">Женская одежда</a>
+            <a href="/">Женская одежда</a>
           </li>
           <li>
-            <a href="#8">Мужская одежда</a>
+            <a href="/">Мужская одежда</a>
           </li>
           <li>
-            <a href="#9">Аксессуары</a>
+            <a href="/">Аксессуары</a>
           </li>
         </ul>
       </div>
